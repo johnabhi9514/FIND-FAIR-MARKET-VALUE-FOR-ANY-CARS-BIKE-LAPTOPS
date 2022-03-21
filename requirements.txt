@@ -38,7 +38,6 @@ duplicity==0.8.12.0
 Eel==0.12.4
 entrypoints==0.3
 ephem==4.1.3
-et-xmlfile==1.1.0
 fasteners==0.14.1
 fbprophet==0.7.1
 fonttools==4.28.5
@@ -50,7 +49,6 @@ gitdb==4.0.9
 GitPython==3.1.24
 google-api-python-client==1.7.11
 google-auth==2.3.3
-google-auth-httplib2==0.0.3
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 greenlet==1.1.2
