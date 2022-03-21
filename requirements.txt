@@ -27,7 +27,7 @@ colorama==0.4.3
 convertdate==2.4.0
 cryptography==3.3
 cycler==0.11.0
-Cython==0.29.28
+Cython==0.22
 dbus-python==1.2.16
 debugpy==1.5.1
 decorator==5.1.0
