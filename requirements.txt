@@ -31,7 +31,7 @@ Cython==0.29.28
 dbus-python==1.2.16
 debugpy==1.5.1
 decorator==5.1.0
-defer==1.0.6
+defer==1.0.4
 defusedxml==0.7.1
 distro==1.4.0
 distro-info===0.23ubuntu1
