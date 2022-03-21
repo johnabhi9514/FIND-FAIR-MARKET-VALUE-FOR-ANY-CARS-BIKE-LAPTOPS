@@ -22,7 +22,7 @@ certifi==2019.11.28
 cffi==1.15.0
 chardet==3.0.4
 Click==7.0
-cmdstanpy==0.9.5
+cmdstanpy==0.9.68
 colorama==0.4.3
 convertdate==2.4.0
 cryptography==2.8
