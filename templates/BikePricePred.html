@@ -1,0 +1,51 @@
+<!Doctype html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>Car Price Prediction</title>
+    <link rel="stylesheet" href="static/css/CarPricePred.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <section>
+  <!--for demo wrap-->
+      <h1>Market Fair Value of your Bike</h1>
+      <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <thead>
+            <tr>
+             <th>Bike Model</th>
+             <th>Bike Company</th>
+              <th>Purchase City</th>
+              <th>Owner</th>
+              <th>KMs Driven</th>
+              <th>Age</th>
+              <th>Power</th>
+              <th>Predicted Price</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tbody>
+            <tr>
+                <td data-th="Car Model">{{BikeName}}</td>
+                <td data-th="BikeCompany">{{BikeCompany}}</td>
+                <td data-th="BikePurchaseCity">{{BikePurchaseCity}} </td>
+                <td data-th="Owner">{{Owner}}</td>
+                <td data-th="kms_driven">{{kms_driven}}</td>
+                <td data-th="age">{{age}}</td>
+                <td data-th="Power">{{Power}}</td>
+                <td data-th="Power" style=" font-weight: bold;">{{prediction}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</section>
+
+
+
+</body>
+</html>

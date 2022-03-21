@@ -1,0 +1,49 @@
+<!Doctype html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>Car Price Prediction</title>
+    <link rel="stylesheet" href="static/css/CarPricePred.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <section>
+  <!--for demo wrap-->
+      <h1>Market Fair Value of your Laptop</h1>
+      <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <thead>
+            <tr>
+             <th>Laptop</th>
+             <th>Type</th>
+              <th>RAM</th>
+              <th>CPU</th>
+              <th>GPU</th>
+              <th>OS</th>
+              <th>Predicted Price</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tbody>
+            <tr>
+                <td data-th="Laptop">{{Laptop}}</td>
+                <td data-th="LaptopType">{{LaptopType}}</td>
+                <td data-th="RAM">{{RAM}} </td>
+                <td data-th="cpu_brand">{{Cpu_Brand}}</td>
+                <td data-th="Gpubrand">{{Gpubrand}}</td>
+                <td data-th="OS">{{OS}}</td>
+                <td data-th="predict" style=" font-weight: bold;">{{prediction}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</section>
+
+
+
+</body>
+</html>

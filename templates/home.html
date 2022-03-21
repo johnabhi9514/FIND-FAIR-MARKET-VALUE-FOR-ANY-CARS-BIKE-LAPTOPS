@@ -1,0 +1,52 @@
+<!Doctype html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>Price Preiction</title>
+    <link rel="stylesheet" href="static/css/home.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+<body>
+ <h1>Find Fair Market Value for any Cars, Bike, Laptops</h1>
+     <div class="icon">
+         <form action="/selectedItems" method="GET">
+             <input type="hidden"  name="selectedItems" value="Car">
+             <button value="car" class="button-con">
+                 <img src="https://img.icons8.com/dusk/64/4a90e2/car--v1.png"/>
+                 <p><label style="color:#3f5efb">Car</label></p>
+             </button>
+         </form>
+         <form action="/selectedItems" method="GET">
+             <input type="hidden" name="selectedItems" value="Bike">
+             <button value="bike">
+                 <img src="https://img.icons8.com/color/64/4a90e2/motorcycle.png"/>
+                 <p><label style="color:#3f5efb">Bike</label></p>
+             </button>
+         </form>
+         <form action="/selectedItems" method="GET">
+             <input type="hidden" name="selectedItems" value="Laptop">
+             <button value="laptop">
+                 <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-laptop-hotel-kiranshastry-lineal-color-kiranshastry.png"/>
+                 <p><label style="color:#3f5efb">Laptop</label></p>
+             </button>
+         </form>
+
+     </div>
+    <form action="/selectedItems" method="GET">
+     <div class="select-box">
+          <select name="selectedItems" id="lang">
+            <option value="select">Select your Options</option>
+            <option value="Car">Car</option>
+            <option value="Bike">Bike</option>
+            <option value="Laptop">Laptop</option>
+          </select>
+          <input class="submit" type="submit" value="Submit" />
+     </div>
+     </form>
+
+</body>
+
+</body>
+</html>
