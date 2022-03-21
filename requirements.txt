@@ -24,7 +24,7 @@ chardet==3.0.4
 Click==7.0
 cmdstanpy==0.9.68
 convertdate==2.4.0
-cryptography==2.8
+cryptography==3.3
 cycler==0.11.0
 Cython==0.29.28
 dbus-python==1.2.16
