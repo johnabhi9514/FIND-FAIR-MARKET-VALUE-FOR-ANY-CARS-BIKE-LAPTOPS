@@ -25,10 +25,6 @@ convertdate==2.4.0
 cycler==0.11.0
 Cython==0.29.28
 dbus-python==1.2.16
-debugpy==1.5.1
-defer==1.0.6
-defusedxml==0.7.1
-distro==1.4.0
 entrypoints==0.3
 ephem==4.1.3
 fasteners==0.14.1
