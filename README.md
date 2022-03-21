@@ -2,7 +2,7 @@
 
 Using Regression model to predict the fair second hand price of your car, Bike, Laptop.
 
-User need to fill form for predicting price.
+User need to fill form for predict price.
 
 
 ![Screenshot](Screenshot1.png)
