@@ -26,7 +26,6 @@ cmdstanpy==0.9.68
 colorama==0.4.3
 convertdate==2.4.0
 cryptography==2.8
-cupshelpers==1.0
 cycler==0.11.0
 Cython==0.29.28
 dbus-python==1.2.16
