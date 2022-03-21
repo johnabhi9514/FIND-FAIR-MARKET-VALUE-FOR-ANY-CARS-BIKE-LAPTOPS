@@ -1,4 +1,4 @@
-absl-py==1.0.0
+absl-py==0.4.1
 altair==4.1.0
 altgraph==0.17.2
 argon2-cffi==21.3.0
